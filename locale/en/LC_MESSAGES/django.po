@@ -1,0 +1,155 @@
+# Kling & Smart Teaching Server Translation File.
+# Copyright (C) 2025 YourCompanyName
+# This file is distributed under the same license as the Epitome project.
+# Translator: Your Name <your.email@example.com>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-11 17:39+0800\n"
+"PO-Revision-Date: 2025-04-11 18:00+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"Language: en-us\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kling_server/views.py:15 kling_server/views.py:50
+msgid "媒体文件URL"
+msgstr "Media file URL"
+
+#: kling_server/views.py:16
+msgid "文件类型，默认为image"
+msgstr "File type, default is image"
+
+#: kling_server/views.py:20 kling_server/views.py:59 kling_server/views.py:133
+#: kling_server/views.py:161 smart_teaching_server/views.py:23
+#: smart_teaching_server/views.py:65
+msgid "成功"
+msgstr "Success"
+
+#: kling_server/views.py:24 kling_server/views.py:33 kling_server/views.py:62
+#: kling_server/views.py:78
+msgid "缺少必要参数"
+msgstr "Missing required parameters"
+
+#: kling_server/views.py:25 kling_server/views.py:63
+msgid "服务器错误"
+msgstr "Server error"
+
+#: kling_server/views.py:37
+msgid "文件下载成功"
+msgstr "File downloaded successfully"
+
+#: kling_server/views.py:47 kling_server/views.py:113 kling_server/views.py:141
+msgid "用户ID"
+msgstr "User ID"
+
+#: kling_server/views.py:48 kling_server/views.py:114 kling_server/views.py:142
+msgid "用户名"
+msgstr "Username"
+
+#: kling_server/views.py:49
+msgid "媒体类型"
+msgstr "Media type"
+
+#: kling_server/views.py:51
+msgid "自定义文件名"
+msgstr "Custom file name"
+
+#: kling_server/views.py:52
+msgid "任务id：没有这个id就新创建一条UserMediaFile记录，有就更新信息"
+msgstr "Task ID: If absent, a new UserMediaFile record will be created; otherwise, the record will be updated"
+
+#: kling_server/views.py:53
+msgid "任务状态"
+msgstr "Task status"
+
+#: kling_server/views.py:54
+msgid "使用的模型名称"
+msgstr "Model name used"
+
+#: kling_server/views.py:55
+msgid "提示词"
+msgstr "Prompt"
+
+#: kling_server/views.py:92
+msgid "信息更新成功"
+msgstr "Information updated successfully"
+
+#: kling_server/views.py:103
+msgid "信息保存成功"
+msgstr "Information saved successfully"
+
+#: kling_server/views.py:118 kling_server/views.py:127
+#: kling_server/views.py:146 kling_server/views.py:155
+msgid "user_id 或 username 不能为空"
+msgstr "user_id or username cannot be empty"
+
+#: kling_server/views.py:119 kling_server/views.py:135
+#: kling_server/views.py:147 kling_server/views.py:163
+msgid "用户记录不存在"
+msgstr "User record does not exist"
+
+#: smart_teaching_server/views.py:17
+msgid "要合成的文本"
+msgstr "Text to synthesize"
+
+#: smart_teaching_server/views.py:18
+msgid "集群类型，默认值为volcano_tts"
+msgstr "Cluster type, default is volcano_tts"
+
+#: smart_teaching_server/views.py:19
+msgid "声音类型，默认值为BV001_streaming"
+msgstr "Voice type, default is BV001_streaming"
+
+#: smart_teaching_server/views.py:26 smart_teaching_server/views.py:68
+msgid "状态码"
+msgstr "Status code"
+
+#: smart_teaching_server/views.py:27 smart_teaching_server/views.py:69
+msgid "提示信息"
+msgstr "Message"
+
+#: smart_teaching_server/views.py:29
+msgid "合成的音频的Base64编码"
+msgstr "Base64 encoding of synthesized audio"
+
+#: smart_teaching_server/views.py:33 smart_teaching_server/views.py:75
+msgid "请求参数错误"
+msgstr "Request parameter error"
+
+#: smart_teaching_server/views.py:34 smart_teaching_server/views.py:53
+msgid "语音合成失败"
+msgstr "Speech synthesis failed"
+
+#: smart_teaching_server/views.py:44
+msgid "文本不能为空"
+msgstr "Text cannot be empty"
+
+#: smart_teaching_server/views.py:51
+msgid "语音合成成功"
+msgstr "Speech synthesis succeeded"
+
+#: smart_teaching_server/views.py:60
+msgid "上下文信息"
+msgstr "Context information"
+
+#: smart_teaching_server/views.py:61
+msgid "用户输入"
+msgstr "User input"
+
+#: smart_teaching_server/views.py:71
+msgid "AI返回的响应"
+msgstr "Response returned by AI"
+
+#: smart_teaching_server/views.py:84
+msgid "上下文和用户输入不能为空"
+msgstr "Context and user input cannot be empty"
+
+#: smart_teaching_server/views.py:89
+msgid "成功获取AI响应"
+msgstr "AI response retrieved successfully"
